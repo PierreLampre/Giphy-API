@@ -1,0 +1,62 @@
+button,
+div,
+form {
+  margin: 10px;
+}
+
+body {
+    background-image: url('https://media1.giphy.com/media/3o7aCQjtpr8pi544YU/giphy.webp?cid=790b7611944a3a316558186edac74d97b9ce4f934f1ca5ef&rid=giphy.webp');
+    background-size: cover;
+    background-repeat: none;
+}
+
+#container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+h1, form, #gifs-view {
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    padding: 8px;
+    border-radius: 24px;
+}
+
+form {
+    display: grid;
+    padding: 20px;
+}
+
+#displayed-gif {
+    height: 150px;
+    width: 150px;
+}
+
+.gifspan {
+    float: left;
+    margin: 16px;
+}
+
+#gifs-view {
+    display: none;
+    align-self: center;
+    padding-left: 54px;
+    background-color: rgba(0,0,0,.50);
+}
+
+button, #add-gif {
+    background-color: black;
+    color: white;
+    border: 3px, solid, white;
+}
+
+#add-gif {
+    margin-top: 10px;
+    align-self: center;
+}
+
+#gif-input {
+    margin-top: 10px;
+}
