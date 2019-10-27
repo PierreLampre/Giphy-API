@@ -7,7 +7,7 @@ form {
 body {
     background-image: url('https://media1.giphy.com/media/3o7aCQjtpr8pi544YU/giphy.webp?cid=790b7611944a3a316558186edac74d97b9ce4f934f1ca5ef&rid=giphy.webp');
     background-size: cover;
-    background-repeat: none;
+    background-position: center;
 }
 
 #container {
@@ -32,6 +32,8 @@ form {
 #displayed-gif {
     height: 150px;
     width: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .gifspan {
@@ -42,7 +44,7 @@ form {
 #gifs-view {
     display: none;
     align-self: center;
-    padding-left: 54px;
+    padding-left: 40px;
     background-color: rgba(0,0,0,.50);
 }
 
@@ -50,6 +52,7 @@ button, #add-gif {
     background-color: black;
     color: white;
     border: 3px, solid, white;
+    padding: 5px;
 }
 
 #add-gif {
@@ -60,3 +63,46 @@ button, #add-gif {
 #gif-input {
     margin-top: 10px;
 }
+
+@media screen and (max-width: 505px) {
+
+    .gifspan {
+        padding-left: 12px;
+    }
+
+
+    #displayed-gif {
+        height: 200px;
+        width: 200px;
+    }
+
+    #gifs-view {
+        padding-left: 0;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 305px) {
+
+
+    #buttons-view {
+        padding-left: 25px;
+    }
+    
+    .gifspan {
+        padding-left: 12px;
+    }
+    
+    #displayed-gif {
+        height: 150px;
+        width: 150px;
+    }
+
+    #gifs-view {
+        padding-left: 0;
+        align-items: center;
+    }
+
+}
+
