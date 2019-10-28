@@ -17,9 +17,10 @@ var topics = ["capybara", "bugs bunny", "rick and morty", "dancing"];
 
         for (let i = 0; i < response.data.length; i++) {
             
-            newDiv.append("<span class='gifspan'><p>Rating: " + response.data[i].rating + "</p><img src='" + response.data[i].images.downsized.url + "'id='displayed-gif'></span>");
+            newDiv.append("<span class='gifspan'><p>Rating: " + response.data[i].rating + "</p><img src='" + response.data[i].images.downsized_still.url + "'class='displayed-gif' data-state='still' data-animate='" + response.data[i].images.downsized.url + "' data-still='" + response.data[i].images.downsized_still.url + "'></span>");
             $("#gifs-view").prepend(newDiv);
         }
+        
           
              console.log(response);
 
@@ -54,6 +55,25 @@ var topics = ["capybara", "bugs bunny", "rick and morty", "dancing"];
         renderButtons();
         }
       });
+
+      $(document).on("click", ".displayed-gif", function() {
+       
+        var state = $(this).attr("data-state");
+     
+        if (state === "still") {
+          $(this).attr("src", $(this).attr("data-animate"));
+          $(this).attr("data-state", "animate");
+        } else {
+          $(this).attr("src", $(this).attr("data-still"));
+          $(this).attr("data-state", "still");
+        }
+
+        console.log(state);
+
+      });
+
+
+
 
       $(document).on("click", ".gif", displaygifInfo);
 
