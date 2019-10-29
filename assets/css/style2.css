@@ -101,4 +101,8 @@ body {
     display: grid;
     grid-row-start: 4;
     grid-template-columns: auto auto auto auto auto;
+    background-color: white;
+    border: 3px solid rgb(27, 27, 73);
+    padding: 12px;
+    border-radius: 44px;
 }
