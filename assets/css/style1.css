@@ -1,0 +1,152 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+#navbrand {
+    margin-top: -2px;
+}
+
+#gif-input, #add-gif {
+    margin-top: -4px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#add-gif {
+    color: white;
+    background-color: #f51105;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#gif-input {
+    padding-left: 7px;
+}
+
+#buttons-view {
+    padding: 30px;
+    background-color: #ebe8e8;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gif, .css-button {
+    margin: 0px, 5px, 0px, 5px;
+    color: white;
+    background-color:#026ef2;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+button {
+    font-family: 'PT Sans', sans-serif;
+}
+
+button:active {
+    text-decoration: none;
+}
+
+#container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+form {
+    display: flex;
+    float: right;
+}
+
+.displayed-gif {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.gifspan {
+    float: left;
+    margin: 16px;
+}
+
+#gifs-view {
+    display: none;
+    padding-left: 68px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding-bottom: 12px;
+}
+
+#css-styleswap {
+    margin: 16px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+footer {
+    margin: 0 auto;
+    width: 66%;
+    border-top: 2px solid #d7ded9;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+
+/* @media screen and (max-width: 505px) {
+
+    .gifspan {
+        padding-left: 12px;
+    }
+
+
+    .displayed-gif {
+        height: 200px;
+        width: 200px;
+    }
+
+    #gifs-view {
+        padding-left: 0;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 305px) {
+
+
+    #buttons-view {
+        padding-left: 25px;
+    }
+    
+    .gifspan {
+        padding-left: 12px;
+    }
+    
+    .displayed-gif {
+        height: 150px;
+        width: 150px;
+    }
+
+    #gifs-view {
+        padding-left: 0;
+        align-items: center;
+    }
+
+}
+ */

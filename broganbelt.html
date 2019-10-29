@@ -12,34 +12,43 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link id="pagestyle" rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link id="pagestyle" rel="stylesheet" href="assets/css/style1.css">
 </head>
 
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-    <div id="container">
-        <h1 id="h1-style1">GIPHY Search</h1>
-
-        <div id="buttons-view"></div>
+    <header>
+        <span id="navbrand">Giphy Search</span>
 
         <form id="gif-form">
-            <label for="gif-input">Search:</label>
-            <input type="text" id="gif-input"><br>
+            <label for="gif-input"></label>
+            <input type="text" id="gif-input" placeholder="Search"><br>
 
             <input id="add-gif" type="submit" value="Make a button">
         </form>
 
+    </header>
+    <div id="container">
+        
+
+        <div id="buttons-view"></div>
+
+
         <div id="gifs-view"></div>
 
         <div id="css-styleswap"><span id="cas">Choose a style: </span><a href="index.html"><button id="disco" class="css-button">Disco</button></a>
-        <a href="broganbelt.html"><button id="broganbelt" class="css-button">Shoebelt</button></a>
-        <button id="hot-bath" class="css-button">Hot Bath</button>
+        <a href="broganbelt.html"><button id="refined" class="css-button">Shoebelt</button></a>
+        <a href="hotbath.html"><button id="hot-bath" class="css-button">Hot Bath</button></a>
         <button id="blue-and-yellow" class="css-button">Blue and Yellow</button>
         </div>
     </div>
+
+    <footer>
+        @ Company 2017
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js" async defer></script>
 </body>

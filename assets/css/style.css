@@ -4,6 +4,19 @@ form {
   margin: 10px;
 }
 
+@font-face {
+    font-family: 'keep_on_truckinregular';
+    src: url('keepontruckin-webfont.woff2') format('woff2'),
+         url('keepontruckin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, #cas {
+    font-family: 'keep_on_truckinregular';
+}
+
 body {
     background-image: url('https://media1.giphy.com/media/3o7aCQjtpr8pi544YU/giphy.webp?cid=790b7611944a3a316558186edac74d97b9ce4f934f1ca5ef&rid=giphy.webp');
     background-size: cover;
@@ -16,7 +29,7 @@ body {
     justify-items: center;
 }
 
-h1, form, #gifs-view {
+h1, form, #gifs-view, #css-styleswap {
     background-color: black;
     color: white;
     border: 3px solid white;
@@ -48,7 +61,7 @@ form {
     background-color: rgba(0,0,0,.50);
 }
 
-button, #add-gif {
+button, #add-gif, .css-button {
     background-color: black;
     color: white;
     border: 3px, solid, white;
