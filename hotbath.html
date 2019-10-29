@@ -12,6 +12,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900&display=swap" rel="stylesheet">
     <link id="pagestyle" rel="stylesheet" href="assets/css/style2.css">
 </head>
 
@@ -21,18 +22,24 @@
         <![endif]-->
 
     <div id="container">
-        <h1 id="h1-style1">GIPHY Search</h1>
+
+        <div id="pink-suds">
+            <h1 id="h1">GIPHY Search</h1>
+        </div>
+
+        <div id="the-loner">
+            <form id="gif-form">
+                <label for="gif-input">Search:</label>
+                <input type="text" id="gif-input">
+
+                <input id="add-gif" type="submit" value="Make a button">
+            </form>
+        </div>
 
         <div id="buttons-view"></div>
 
-        <form id="gif-form">
-            <label for="gif-input">Search:</label>
-            <input type="text" id="gif-input"><br>
-
-            <input id="add-gif" type="submit" value="Make a button">
-        </form>
-
         <div id="gifs-view"></div>
+
 
         <div id="css-styleswap"><span id="cas">Choose a style: </span><a href="index.html"><button id="disco" class="css-button">Disco</button></a>
         <a href="broganbelt.html"><button id="broganbelt" class="css-button">Shoebelt</button></a>
@@ -40,8 +47,11 @@
         <button id="blue-and-yellow" class="css-button">Blue and Yellow</button>
         </div>
     </div>
+
+   
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/app.js" async defer></script>
+    <script src="assets/javascript/app2.js" async defer></script>
 </body>
 
 </html>
