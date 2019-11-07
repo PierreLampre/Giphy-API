@@ -6,7 +6,7 @@ I also decided to style it in a few different ways:
 
 Disco: Just what it sounds like, flashing colors and 70's font.
 
-Shoebelt: My take on Bootstrap styling, bult from scratch without using Bootstrap.
+Shoebelt: My take on Bootstrap styling, built from scratch without using Bootstrap.
 
 Hot Bath: An homage to my favorite place to rejuvenate, now with gif getting buttons!
 
