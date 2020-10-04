@@ -101,7 +101,7 @@ body {
 
 #css-styleswap {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: white;
     border: 3px solid rgb(27, 27, 73);
     padding: 12px;
@@ -132,6 +132,10 @@ body {
         width: 60%;
     }
 
+    #css-styleswap{
+        width: 80%;
+    }
+
 }
 
 @media screen and (max-width: 590px) {
@@ -141,3 +145,21 @@ body {
     }
 
 }
+
+@media screen and (max-width: 500px) {
+
+    #gif-input{
+        width: 120px;
+    }
+
+    #css-styleswap{
+        display: grid;
+        width: 93%;
+    }
+
+    #cas{
+        margin: 0 0 20px 100px;
+    }
+
+}
+
