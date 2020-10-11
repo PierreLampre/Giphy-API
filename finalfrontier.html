@@ -12,6 +12,8 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style3.css">
 </head>
 
@@ -24,25 +26,25 @@
 
         <div id="gifs-view"></div>
 
+        <div id="mid-bottom"><div id="buttons-view"></div></div>
+
         <div id="bottom">
 
             <h1 id="h1-style1">GIPHY Search</h1>
-
-            <div id="buttons-view"></div>
 
             <form id="gif-form">
                 <label for="gif-input">Search:</label>
                 <input type="text" id="gif-input"><br>
 
-                <input id="add-gif" type="submit" value="Make a button">
+                <input id="add-gif" class="btn" type="submit" value="Make a button">
             </form>
 
 
-            <div id="css-styleswap"><span id="cas">Choose a style: </span><a href="index.html"><button id="disco"
+            <div id="css-styleswap"><span id="cas">Choose a style: </span><a href="index.html"><button class="btn" id="disco"
                         class="css-button">Disco</button></a>
-                <a href="broganbelt.html"><button id="broganbelt" class="css-button">Shoebelt</button></a>
-                <button id="hot-bath" class="css-button">Hot Bath</button>
-                <button id="blue-and-yellow" class="css-button">Blue and Yellow</button>
+                <a href="broganbelt.html"><button class="btn" id="broganbelt" class="css-button">Shoebelt</button></a>
+                <button class="btn" id="hot-bath" class="css-button">Hot Bath</button>
+                <button class="btn" id="blue-and-yellow" class="css-button">Final Frontier</button>
             </div>
 
         </div>
@@ -52,8 +54,8 @@
 
 
 
-
-    <script src="assets/javascript/app.js" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/ff-app.js" async defer></script>
 </body>
 
 </html>

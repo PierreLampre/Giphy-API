@@ -1,6 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url('../img/by.png');
-    background-position: initial;
+    background-image: url('../img/stars.gif');
+    background-position: 40% 60%;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#container{
+    display: grid;
+    grid-template-rows: 15% 65% 10% 10%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    justify-items: center;
+}
+
+#gifs-view{
+    grid-row: 2 / 3;
+    max-width: 1000px;
+}
+
+#mid-bottom{
+    grid-row: 3 / 4;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-evenly;
+    grid-row: 4 / 5;
+    max-width: 1200px;
+    width: 100%;
+}
+
+#h1-style1{
+    color: white;
+    font-family: 'Oleo Script', cursive;
+}
+
+#gif-form{
+    max-width: 500px;
+    display: flex;
+    height: 48px;
+    align-items: center;
+}
+
+#gif-input{
+    margin: 0 20px 0 8px;
+}
+
+label{
+    color: white;
+}
+
+.btn, .gif{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#css-styleswap{
+    display: flex;
+    height: 48px;
+    align-items: center;
+}
+
+#cas{
+    color: white;
+    margin-right: 8px;
+}
+
+#gifs-view > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gifspan, .displayed-gif{
+    width: 140px;
+    height: 140px;
+    margin: 20px;
+}
+
+.displayed-gif{
+    border-radius: 14px;
+    border: 5px solid #d33453;
+}
+
+.gifspan > p{
+    width: 100px;
+    margin: 12px;
 }
